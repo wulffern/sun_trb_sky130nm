@@ -299,8 +299,8 @@
                   ["M1","N1","-|--","",2,""],
                   ["M1","N2","--|-","",2,""],
                   ["M1","A$","||","onTopL",2,"NCH"],
-                  ["M1","SCO","-|--","onTopR",2,"PCH"],
-                  ["M1","SCO","--|-","onTopL",2,"NCH"],
+                  ["M1","SCO","-|--","onTopR,offsethighend",2,"PCH"],
+                  ["M1","SCO","--|-","onTopL,offsethighend",2,"NCH"],
                   ["M1","AVDD","--|-","onTopL",2,"NCH"],
                   ["M1","Y","-|--","onTopL",2]
 
