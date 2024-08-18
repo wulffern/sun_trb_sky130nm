@@ -34,7 +34,7 @@
                                       ["PO","A","MN0:G-MP0:G"] ]
           },
           "afterRoute"  : {
-              "addPortOnRects" : [  ["Y","M1", "MP0:D"] ]
+              "addPortOnRects" : [  ["Y","M1", "MP0:D"], ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"] ]
           }
         },
 
@@ -48,7 +48,7 @@
                                       ["PO","A","MN:G-MP:G"] ]
           },
           "afterRoute"  : {
-              "addPortOnRects" : [  ["Y","M1", "MN0:D"] ]
+              "addPortOnRects" : [  ["Y","M1", "MN0:D"], ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]]
           }
         },
 
@@ -243,6 +243,9 @@
                                       ["M1","BULKP","MP:D-|--MP:G"]
                                     ]
 
+          },
+          "afterRoute"  : {
+              "addPortOnRects" : [  ["AVDD","M1","MP1:B"], ["AVSS","M1","MN1:B"]]
           }
 
         },
@@ -305,7 +308,9 @@
                   ["M1","Y","-|--","onTopL",2]
 
               ]
-
+          },
+          "afterRoute"  : {
+              "addPortOnRects" : [  ["BULKP","M1","XB0:B"], ["BULKN","M1","XA2:B"]]
           }
         },
 
@@ -323,7 +328,7 @@
               ]}
           ],
           "afterRoute"  : {
-              "addPortOnRects" : [  ["VREF","M4","CUST_VREF"]]
+              "addPortOnRects" : [  ["VREF","M4","CUST_VREF"], ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]]
           }
         },
         { "name": "SWX4_CV" ,
@@ -347,8 +352,7 @@
                                      ]}
           ],
           "afterRoute"  : {
-
-              "addPortOnRects" : [  ["A","M1", "MN0:G"] , ["Y", "M1", "MN0:D"],["VREF","M4","CUST_VREF"]]
+              "addPortOnRects" : [  ["A","M1", "MN0:G"] , ["Y", "M1", "MN0:D"],["VREF","M4","CUST_VREF"], ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]]
           }
         },
         { "name": "TGPD_CV" ,
@@ -371,7 +375,7 @@
                                     ]
           },
           "afterRoute"  : {
-              "addPortOnRects" : [  ["C","M1", "MP0:G"],["B","M1","MP2:S"],["A","M1","MN2:D"]
+              "addPortOnRects" : [  ["C","M1", "MP0:G"],["B","M1","MP2:S"],["A","M1","MN2:D"], ["BULKP","M1","MP0:B"], ["BULKN","M1","MN0:B"]
                                  ]
           }
         }

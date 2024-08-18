@@ -3157,6 +3157,30 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVDD",
                     "net": "",
@@ -3660,6 +3684,30 @@
                     "x2": 48600,
                     "y1": 11700,
                     "y2": 14700
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
                 },
                 {
                     "class": "Port",
@@ -20062,6 +20110,18 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "AVDD",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVSS",
                     "net": "",
@@ -20238,6 +20298,18 @@
                     "angle": "",
                     "cell": "SUNTRB_TAPCELLBAVSS_CV",
                     "children": [
+                        {
+                            "class": "Port",
+                            "layer": "M1",
+                            "name": "BULKP",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 120600,
+                            "x2": 131400,
+                            "y1": 6600,
+                            "y2": 11000
+                        },
                         {
                             "class": "Port",
                             "layer": "M4",
@@ -22612,8 +22684,8 @@
                     "spicePort": true,
                     "x1": 120600,
                     "x2": 131400,
-                    "y1": 24200,
-                    "y2": 28600
+                    "y1": 6600,
+                    "y2": 11000
                 },
                 {
                     "class": "Port",
@@ -22856,6 +22928,47 @@
                     "instances": [
                         {
                             "inst": "XA0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "XA1",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA2",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA3",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA4",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA5",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA6",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA7",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "XA8",
+                            "node": "BULKP"
+                        }
+                    ],
+                    "node": "BULKP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "XA0",
                             "node": "AVSS"
                         },
                         {
@@ -22943,43 +23056,6 @@
                         }
                     ],
                     "node": "CKN"
-                },
-                {
-                    "instances": [
-                        {
-                            "inst": "XA1",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA2",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA3",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA4",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA5",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA6",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA7",
-                            "node": "BULKP"
-                        },
-                        {
-                            "inst": "XA8",
-                            "node": "BULKP"
-                        }
-                    ],
-                    "node": "BULKP"
                 },
                 {
                     "instances": [
@@ -24988,6 +25064,30 @@
                 {
                     "class": "Port",
                     "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
                     "name": "A",
                     "net": "",
                     "pinLayer": "M1_pin",
@@ -25511,8 +25611,8 @@
             "noPowerRoute": false,
             "physicalOnly": false,
             "useHalfHeight": false,
-            "x1": 0,
-            "x2": 126000,
+            "x1": -5400,
+            "x2": 131400,
             "y1": 0,
             "y2": 88000
         },
@@ -27905,6 +28005,30 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVSS",
                     "net": "",
@@ -29526,6 +29650,30 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKP",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
+                    "layer": "M1",
+                    "name": "BULKN",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": -5400,
+                    "x2": 5400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVDD",
                     "net": "",
@@ -29889,12 +30037,12 @@
     "info": {
         "arguments": "/Users/wulff/pro/aicex/ip/sun_trb_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_TRB_SKY130NM",
         "file": "../cic/ip.json",
-        "hash": "0.1.5-24-gfc1deea",
+        "hash": "0.1.5-26-g97ed99d",
         "includepaths": "../cic",
         "libpaths": "",
         "library": "SUN_TRB_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Fri Feb 9 16:44:38 CET 2024"
+        "version": "0.1.5+ built on Mon Feb 19 16:43:21 CET 2024"
     }
 }

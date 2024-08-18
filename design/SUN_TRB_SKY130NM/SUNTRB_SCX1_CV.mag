@@ -1,9 +1,9 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1707433200
+timestamp 1709161200
 << checkpaint >>
-rect 0 0 2520 1760
+rect -108 0 2628 1760
 << locali >>
 rect 864 234 1032 294
 rect 864 410 1032 470
@@ -44,6 +44,8 @@ rect 1032 1290 1092 1526
 rect 1656 762 1824 822
 rect 1656 1114 1824 1174
 rect 1824 762 1884 1174
+rect 2412 132 2628 220
+rect -108 132 108 220
 rect 324 146 540 206
 rect 756 1642 972 1702
 << m1 >>
@@ -116,6 +118,10 @@ use SUNTRB_cut_M1M4_2x1 xcut7
 transform 1 0 756 0 1 1466
 box 756 1466 956 1542
 << labels >>
+flabel locali s 2412 132 2628 220 0 FreeSans 400 0 0 0 BULKP
+port 3 nsew signal bidirectional
+flabel locali s -108 132 108 220 0 FreeSans 400 0 0 0 BULKN
+port 4 nsew signal bidirectional
 flabel locali s 324 146 540 206 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
 flabel locali s 756 1642 972 1702 0 FreeSans 400 0 0 0 Y
@@ -125,5 +131,5 @@ port 5 nsew signal bidirectional
 flabel m3 s 756 0 956 1760 0 FreeSans 400 0 0 0 AVSS
 port 6 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 2520 1760
+string FIXED_BBOX -108 0 2628 1760
 << end >>

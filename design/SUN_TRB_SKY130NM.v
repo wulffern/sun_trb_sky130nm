@@ -34,6 +34,8 @@ endmodule
 //-------------------------------------------------------------
 module SUNTRB_TIEH_CV(Y,BULKP,BULKN,AVDD,AVSS);
 input logic Y;
+input logic BULKP;
+input logic BULKN;
 input logic AVDD;
 input logic AVSS;
 SUNTRB_NCHDL MN0 (A,A,AVSS,BULKN);
@@ -45,6 +47,8 @@ endmodule
 //-------------------------------------------------------------
 module SUNTRB_TIEL_CV(Y,BULKP,BULKN,AVDD,AVSS);
 input logic Y;
+input logic BULKP;
+input logic BULKN;
 input logic AVDD;
 input logic AVSS;
 SUNTRB_NCHDL MN0 (Y,A,AVSS,BULKN);
@@ -337,6 +341,7 @@ endmodule
 // SUNTRB_TAPCELLBAVSS_CV <class 'cicpy.core.layoutcell.LayoutCell'>
 //-------------------------------------------------------------
 module SUNTRB_TAPCELLBAVSS_CV(AVDD,AVSS);
+input logic AVDD;
 input logic AVSS;
 SUNTRB_NCHDL MN1 (AVSS,AVSS,AVSS,AVSS);
 SUNTRB_PCHDL MP1 (NC1,NC1,NC1,AVDD);
@@ -370,6 +375,8 @@ endmodule
 // SUNTRB_SCX1_CV <class 'cicpy.core.layoutcell.LayoutCell'>
 //-------------------------------------------------------------
 module SUNTRB_SCX1_CV(A,Y,BULKP,BULKN,AVDD,AVSS);
+input logic BULKP;
+input logic BULKN;
 input logic A;
 input logic Y;
 input logic AVDD;
@@ -409,6 +416,8 @@ module SUNTRB_SWX4_CV(A,Y,VREF,AVSS,BULKP,BULKN);
 input logic A;
 input logic Y;
 input logic VREF;
+input logic BULKP;
+input logic BULKN;
 input logic AVSS;
 SUNTRB_NCHDL MN0 (Y,A,AVSS,BULKN);
 SUNTRB_NCHDL MN1 (AVSS,A,Y,BULKN);
@@ -427,6 +436,8 @@ module SUNTRB_TGPD_CV(C,A,B,BULKP,BULKN,AVDD,AVSS);
 input logic C;
 input logic B;
 input logic A;
+input logic BULKP;
+input logic BULKN;
 input logic AVDD;
 input logic AVSS;
 SUNTRB_NCHDL MN0 (AVSS,C,CN,BULKN);
